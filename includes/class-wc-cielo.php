@@ -55,7 +55,7 @@ class WC_Cielo {
 	 *
 	 * @param  array $methods WooCommerce payment methods.
 	 *
-	 * @return array          Payment methods with PagSeguro.
+	 * @return array          Payment methods with Cielo.
 	 */
 	public static function add_gateway( $methods ) {
 		$methods[] = 'WC_Cielo_Credit_Gateway';
