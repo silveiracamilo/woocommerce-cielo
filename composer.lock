@@ -1,0 +1,137 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2fc60fa2fcc5ca9c98d7f8ec57a8f90f",
+    "packages": [
+        {
+            "name": "cielowp/api-3.0-php",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silveiracamilo/cielowp.git",
+                "reference": "2daff6db4b922501025a88652b3911d9db20aecb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silveiracamilo/cielowp/zipball/2daff6db4b922501025a88652b3911d9db20aecb",
+                "reference": "2daff6db4b922501025a88652b3911d9db20aecb",
+                "shasum": ""
+            },
+            "require": {
+                "developercielo/api-3.0-php": "^1.3.1",
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.6",
+                "psr/log": "^1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "CieloWP": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Integração com a Developer Cielo API 3.0",
+            "homepage": "https://github.com/silveiracamilo/cielowp",
+            "time": "2020-03-04T19:04:08+00:00"
+        },
+        {
+            "name": "developercielo/api-3.0-php",
+            "version": "v1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DeveloperCielo/API-3.0-PHP.git",
+                "reference": "ad3f57731910f58f8baa6cb56e4f605baea38efa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DeveloperCielo/API-3.0-PHP/zipball/ad3f57731910f58f8baa6cb56e4f605baea38efa",
+                "reference": "ad3f57731910f58f8baa6cb56e4f605baea38efa",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.6",
+                "psr/log": "^1.1"
+            },
+            "suggest": {
+                "monolog/monolog": "Allows more advanced logging of the application flow"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Cielo": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Integração com a API 3.0 da Cielo",
+            "homepage": "https://github.com/DeveloperCielo/API-3.0-PHP",
+            "time": "2019-11-20T19:44:20+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/446d54b4cb6bf489fc9d75f55843658e6f25d801",
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2019-11-01T11:05:21+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

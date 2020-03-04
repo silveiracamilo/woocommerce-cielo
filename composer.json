@@ -1,0 +1,6 @@
+{
+    "require": {
+        "developercielo/api-3.0-php": "^1.3",
+        "cielowp/api-3.0-php": "^1.0"
+    }
+}
